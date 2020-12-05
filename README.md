@@ -2,7 +2,7 @@
 
 
 <p align="center">
-<img src="![image2](https://github.com/soheil-ra/NLP/blob/main/Images/image2.png?raw=true)"/>   
+<img src="https://github.com/soheil-ra/NLP/blob/main/Images/image2.png?raw=true" />   
 </p>
 
 ## **Table of Content**<br>
@@ -43,15 +43,15 @@ It needs to be mentioned that since document data is not computable, it must be 
 <br>
 
 ## **Motivation and Background**<br>
-"Sentiment analysis is an important concept and one of the most effective tools of improving the conversion rate. Reading the sentiment of consumers, not only enables businesses to reach out to their target audience, but also enables them understand their needs and feelings. It provides a bird-eye-view to brands and let them observe and protect their prestige. Additionally, it automates a cumbersome process of going through millions of lines of text to better read and listen to the demands and concerns of consumers. That, in turn, helps manage unpredictable damaging scenarios and ease the cost of doing so. Daily, weekly, and monthly reports of sentiment analysis can help a brand improve its image, set its pricing appropriately, and improving its relationship with consumers. It can also be turned into a tool of tracking sector-wide trends and demands, including competitors’ contents and strategies, to contribute to a competitive advantage."
+Sentiment analysis is an important concept and one of the most effective tools of improving the conversion rate. Reading the sentiment of consumers, not only enables businesses to reach out to their target audience, but also enables them understand their needs and feelings. It provides a bird-eye-view to brands and let them observe and protect their prestige. Additionally, it automates a cumbersome process of going through millions of lines of text to better read and listen to the demands and concerns of consumers. That, in turn, helps manage unpredictable damaging scenarios and ease the cost of doing so. Daily, weekly, and monthly reports of sentiment analysis can help a brand improve its image, set its pricing appropriately, and improving its relationship with consumers. It can also be turned into a tool of tracking sector-wide trends and demands, including competitors’ contents and strategies, to contribute to a competitive advantage.
 <br>
 
 <p align="center">
-<img src="https://github.com/soheil-ra/NLP/blob/main/Images/image5.PNG?raw=true" />
+<img src="https://github.com/soheil-ra/NLP/blob/main/Images/image3.PNG?raw=true" />
 </p>
 
 ## **Data**
-The dataset has been collected from Kaggle (https://www.kaggle.com/aswin0821/amazon-reviews), and it's a .csv file consisting of information about 10,000 records of customers and 9 attributes, writing reviews on Amazon food product e day. Each review contains textual feedback along with a 1-to-5 star rating system (1 being least satisfied and 5 being most satisfied).<br>
+The dataset has been collected from Kaggle (https://www.kaggle.com/aswin0821/amazon-reviews), and it's a .csv file consisting of information about 10,000 records of customers and 9 attributes, writing reviews on Amazon food product every day. Each review contains textual feedback along with a 1-to-5 star rating system (1 being least satisfied and 5 being most satisfied).<br>
 
 Attribute Information:<br>
 
@@ -64,11 +64,6 @@ Attribute Information:<br>
 **7. Time** - timestamp of the review. (numerical)<br>
 **8. Summary** - brief summary of the review. (text)<br>
 **9. Text** - text of the review. (text)<br>
-<br>
-
-<br>
-## **References**<br>
-[1]:  https://aws.amazon.com/blogs/machine-learning/detect-sentiment-from-customer-reviews-using-amazon-comprehend/
 <br>
 
 <pre>
