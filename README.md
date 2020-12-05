@@ -26,9 +26,7 @@ This assignment contains the following areas:
 Sentiment analysis uses a process to computationally determine whether a piece of writing is positive, negative, neutral, or mixed. This is usually used on social media posts and customer reviews in order to automatically understand if some users are positive or negative and why. Amazon Comprehend is a natural language processing (NLP) text analytics service made up of a handful of APIs that allows you to detect sentiment (along with key phrases, named entities, and language) and perform topic modeling from a collection of documents. The Amazon Comprehend training data set primarily consists of data found in product descriptions and consumer reviews from one of the largest natural language collections in the world — Amazon.com."
 In this study, we will apply Natural Language Processing (NLP) by useing a machine learning algorithm to find insights and relationships in text (Amazon's customer reviews) to detect bad and good customer reviews. <br>
 
-<p align="center">
-<img src="https://github.com/soheil-ra/NLP/blob/main/Images/image4.PNG?raw=true"  />
-</p><br>
+
 
 ## **Goals**<br>
 The goal of this study is to show how sentiment analysis can be performed on Amazon's Customer Reviews using python. For each textual review, we want to predict if it corresponds to a good review (the customer is happy) or to a bad one (the customer is not satisfied). The reviews overall ratings can range from 1 to 5.
