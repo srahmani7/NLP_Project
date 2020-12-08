@@ -25,7 +25,7 @@ This assignment contains the following areas:
 "In today’s world, public content has never been more relevant. Data from customer reviews is being used as a tool to gain insight into consumption-related decisions as the understanding of its associated sentiment grants businesses invaluable market awareness and the ability to proactively address issues early.
 
 Sentiment analysis uses a process to computationally determine whether a piece of writing is positive, negative, neutral, or mixed. This is usually used on social media posts and customer reviews in order to automatically understand if some users are positive or negative and why. Amazon Comprehend is a natural language processing (NLP) text analytics service made up of a handful of APIs that allows you to detect sentiment (along with key phrases, named entities, and language) and perform topic modeling from a collection of documents. The Amazon Comprehend training data set primarily consists of data found in product descriptions and consumer reviews from one of the largest natural language collections in the world — Amazon.com."
-In this study, we will apply Natural Language Processing (NLP) by useing a machine learning algorithm to find insights and relationships in text (Amazon's customer reviews) to detect bad and good customer reviews. <br>
+In this study, we will apply Natural Language Processing (NLP) by using a machine learning algorithm to find insights and relationships in text (Amazon's customer reviews) to detect bad and good customer reviews. <br>
 
 
 
@@ -39,12 +39,11 @@ The goal of this study is to show how sentiment analysis can be performed on Ama
 I try to achive the followings for this assignment:<br>
 
 **1. Preparing Data -** This section includes, Cleaning, Exploring and Visualizing  data.<br>
-**2. Proposing Methods & Experiments -** To perform the Text-Classification (NLP), I applied three different feature extraction models (Bag of Words, TF_IDF and Word Embedding) and compared the results of their prediction acuracies, by using Logistic Regression algorithm.
-It needs to be mentioned that since document data is not computable, it must be transformed to numerical data such as vector space model. This transformation task is generally called feature extraction of document data.<br>
-<br>
+**2. Proposing Methods & Experiments -** To perform the Text-Classification (NLP), I applied three different feature extraction models (Bag of Words, TF_IDF and Word Embeddings) and compared the results of their prediction accuracies, using Logistic Regression and Linear Support Vector Machine Algorithms.
+It needs to be mentioned that since document data is not computable, it must be transformed to numerical data such as the vector space model. This transformation task is generally called feature extraction of document data.<br>
 
 ## **Motivation and Background**<br>
-Sentiment analysis is an important concept and one of the most effective tools of improving the conversion rate. Reading the sentiment of consumers, not only enables businesses to reach out to their target audience, but also enables them understand their needs and feelings. It provides a bird-eye-view to brands and let them observe and protect their prestige. Additionally, it automates a cumbersome process of going through millions of lines of text to better read and listen to the demands and concerns of consumers. That, in turn, helps manage unpredictable damaging scenarios and ease the cost of doing so. Daily, weekly, and monthly reports of sentiment analysis can help a brand improve its image, set its pricing appropriately, and improving its relationship with consumers. It can also be turned into a tool of tracking sector-wide trends and demands, including competitors’ contents and strategies, to contribute to a competitive advantage.
+Sentiment analysis is an important concept and one of the most effective tools of improving the conversion rate. Reading the sentiment of consumers, not only enables businesses to reach out to their target audience, but also enables them to understand their needs and feelings. It provides a bird-eye-view to brands and let them observe and protect their prestige. Additionally, it automates a cumbersome process of going through millions of lines of text to better read and listen to the demands and concerns of consumers. That, in turn, helps manage unpredictable damaging scenarios and ease the cost of doing so. Daily, weekly, and monthly reports of sentiment analysis can help a brand improve its image, set its pricing appropriately, and improve its relationship with consumers. It can also be turned into a tool of tracking sector-wide trends and demands, including competitors’ contents and strategies, to contribute to a competitive advantage.
 <br>
 
 <p align="center">
