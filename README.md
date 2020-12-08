@@ -1,4 +1,5 @@
-# Natural Language Processing (NLP)
+ <H2 align="center">Sentiment Analysis of Amazon's Customer Reviews Applying </H2>
+ <H1 align="center", size= 3>NLP (Natural Language Processing)</H1>
 
 
 <p align="center">
@@ -51,7 +52,7 @@ Sentiment analysis is an important concept and one of the most effective tools o
 </p>
 
 ## **Data**
-The dataset has been collected from Kaggle (https://www.kaggle.com/aswin0821/amazon-reviews), and it's a .csv file consisting of information about 10,000 records of customers and 9 attributes, writing reviews on Amazon food product every day. Each review contains textual feedback along with a 1-to-5 star rating system (1 being least satisfied and 5 being most satisfied).<br>
+The dataset has been collected from Kaggle (https://www.kaggle.com/aswin0821/amazon-reviews), and it's a .csv file with the size of 4.83MB, consisting of information about 10,000 records of customers with 9 attributes, writing reviews on Amazon food products every day. Each review contains textual feedback along with a 1-to-5 star rating system (1 being least satisfied and 5 being most satisfied).<br>
 
 Attribute Information:<br>
 
