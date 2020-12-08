@@ -18,7 +18,7 @@ ReadMe contains the following sections:
 This assignment contains the following areas:
 
 **5. Dataset -** [Dataset](https://github.com/soheil-ra/NLP/blob/main/Amazon%20Product%20Reviews.csv) <br>
-**6. Code -** [Code]()<br>
+**6. Code -** [Code](https://github.com/soheil-ra/NLP/blob/main/NLP_Report.ipynb)<br>
 **7. Images -** [Images](https://github.com/soheil-ra/NLP/tree/main/Images)<br>
 
 ## **Overview**<br>
