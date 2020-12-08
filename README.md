@@ -17,7 +17,7 @@ ReadMe contains the following sections:
 
 This assignment contains the following areas:
 
-**5. Dataset -** [Dataset](https://www.kaggle.com/aswin0821/amazon-reviews) <br>
+**5. Dataset -** [Dataset](https://github.com/soheil-ra/NLP/blob/main/Amazon%20Product%20Reviews.csv) <br>
 **6. Code -** [Code]()<br>
 **7. Images -** [Images](https://github.com/soheil-ra/NLP/tree/main/Images)<br>
 
