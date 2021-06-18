@@ -1,4 +1,4 @@
- <H2 align="center">Sentiment Analysis of Amazon's Customer Reviews Applying </H2>
+ <H2 align="center">Sentiment Analysis of Amazon Electronic Products Reviews </H2>
  <H1 align="center", size= 3>NLP (Natural Language Processing)</H1>
 
 
@@ -30,7 +30,7 @@ In this study, we will apply Natural Language Processing (NLP) by using a machin
 
 
 ## **Goals**<br>
-The goal of this study is to show how sentiment analysis can be performed on Amazon's Customer Reviews using python. For each textual review, we want to predict if it corresponds to a good review (the customer is happy) or to a bad one (the customer is not satisfied). The reviews overall ratings can range from 1 to 5.
+The goal of this study is to show how sentiment analysis can be performed on Amazon Customer Electronic Products Reviews using python. For each textual review, we want to predict if it corresponds to a good review (the customer is happy) or to a bad one (the customer is not satisfied). The reviews overall ratings can range from 1 to 5.
 
 <p align="center">
 <img src="https://github.com/soheil-ra/NLP/blob/main/Images/image4.PNG?raw=true"  />
@@ -39,7 +39,7 @@ The goal of this study is to show how sentiment analysis can be performed on Ama
 I try to achive the followings for this assignment:<br>
 
 **1. Preparing Data -** This section includes, Cleaning, Exploring and Visualizing  data.<br>
-**2. Proposing Methods & Experiments -** To perform the Text-Classification (NLP), I applied three different feature extraction models (Bag of Words, TF_IDF and Word Embeddings) and compared the results of their prediction accuracies, using Logistic Regression and Linear Support Vector Machine Algorithms.
+**2. Proposing Methods & Experiments -** To perform the Text-Classification (NLP), I applied four different feature extraction models (Bag of Words, TF_IDF, Word Embeddings and Topic modeling) and compared the results of their prediction accuracies, using Logistic Regression and Linear Support Vector Machine Algorithms.
 It needs to be mentioned that since document data is not computable, it must be transformed to numerical data such as the vector space model. This transformation task is generally called feature extraction of document data.<br>
 
 ## **Motivation and Background**<br>
@@ -51,19 +51,31 @@ Sentiment analysis is an important concept and one of the most effective tools o
 </p>
 
 ## **Data**
-The dataset has been collected from Kaggle (https://www.kaggle.com/aswin0821/amazon-reviews), and it's a .csv file with the size of 4.83MB, consisting of information about 10,000 records of customers with 9 attributes, writing reviews on Amazon food products every day. Each review contains textual feedback along with a 1-to-5 star rating system (1 being least satisfied and 5 being most satisfied).<br>
+The dataset has been collected from Datafiniti's Product Database (https://data.world/datafiniti/consumer-reviews-of-amazon-products/workspace/file?filename=Datafiniti_Amazon_Consumer_Reviews_of_Amazon_Products), and it's a .csv file with the size of 13.1MB, consisting of information about 5000 records of customers with 21 attributes, writing reviews on Amazon electronic products every day. Each review contains textual feedback along with a 1-to-5-star rating system (1 being least satisfied and 5 being most satisfied).<br>
 
 Attribute Information:<br>
 
-**1. ProductId** - ID of the referenced product by the customer. (categorical)<br>
-**2. UserId** - registered user ID. (categorical)<br>
-**3. ProfileName** - registered user profile name. (text)<br>
-**4. HelpfulnessNumerator** - number of users who found the review helpful. (numerical)<br>
-**5. HelpfulnessDenominator** - Number of users who voted whether the review was helpful or not. (numerical)<br>
-**6. Score** - rating between 1 and 5. (ordinal)<br>
-**7. Time** - timestamp of the review. (numerical)<br>
-**8. Summary** - brief summary of the review. (text)<br>
-**9. Text** - text of the review. (text)<br>
+**1. id** (text)<br>
+**2. dateadded** - (timestamp)<br>
+**3. dateupdated** - (timestamp)<br>
+**4. name** - (text)<br>
+**5. asins** - (text)<br>
+**6. brand** - (text)<br>
+**7. categories** - (text)<br>
+**8. primarycategories** - (text)<br>
+**9. imageurls** - (url)<br>
+**10. keys** - (text)<br>
+**11. manufacturer** - (text)<br>
+**12. manufacturernumber** - (text)<br>
+**13. reviews_date** - (timestamp)<br>
+**14. reviews_dateseen** - (text)<br>
+**15. reviews_doRecommend** - (boolean)<br>
+**16. reviews_numhelpful** - (numerical)<br>
+**17. reviews_rating** - (numerical)<br>
+**18. reviews_sourceUrls** - (url)<br>
+**19. reviews_text** - (text)<br>
+**20. reviews_title** - (text)<br>
+**21. reviews_username** - (text)<br>
 <br>
 
 <pre>
