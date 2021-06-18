@@ -36,7 +36,7 @@ The goal of this study is to show how sentiment analysis can be performed on Ama
 <img src="https://github.com/soheil-ra/NLP/blob/main/Images/image4.PNG?raw=true"  />
 </p><br>
 
-I try to achive the followings for this assignment:<br>
+I try to achive the followings for this project:<br>
 
 **1. Preparing Data -** This section includes, Cleaning, Exploring and Visualizing  data.<br>
 **2. Proposing Methods & Experiments -** To perform the Text-Classification (NLP), I applied four different feature extraction models (Bag of Words, TF_IDF, Word Embeddings and Topic modeling) and compared the results of their prediction accuracies, using Logistic Regression and Linear Support Vector Machine Algorithms.
