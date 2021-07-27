@@ -51,31 +51,30 @@ Sentiment analysis is an important concept and one of the most effective tools o
 </p>
 
 ## **Data**
-The dataset has been collected from Datafiniti's Product Database (https://data.world/datafiniti/consumer-reviews-of-amazon-products/workspace/file?filename=Datafiniti_Amazon_Consumer_Reviews_of_Amazon_Products), and it's a .csv file with the size of 13.1MB, consisting of information about 5000 records of customers with 21 attributes, writing reviews on Amazon electronic products every day. Each review contains textual feedback along with a 1-to-5-star rating system (1 being least satisfied and 5 being most satisfied).<br>
-
+The dataset has been collected from https://data.world/datafiniti/amazon-and-best-buy-electronics website and is a .csv file with the size of 8.29 MB, consisting of information of over 7,000 online reviews for 50 electronic products from websites like Amazon and Best Buy provided by Datafiniti's Product Database.  This dataset has 20 attributes, writing reviews on Amazon electronic products every day. Each review contains textual feedback along with a 1-to-5-star rating system (1 being least satisfied and 5 being most satisfied). 
+Note that this is a sample of a large dataset. The full dataset is available through Datafiniti.   
 Attribute Information:<br>
 
 **1. id** (text)<br>
-**2. dateadded** - (timestamp)<br>
-**3. dateupdated** - (timestamp)<br>
-**4. name** - (text)<br>
-**5. asins** - (text)<br>
-**6. brand** - (text)<br>
-**7. categories** - (text)<br>
-**8. primarycategories** - (text)<br>
-**9. imageurls** - (url)<br>
-**10. keys** - (text)<br>
-**11. manufacturer** - (text)<br>
-**12. manufacturernumber** - (text)<br>
-**13. reviews_date** - (timestamp)<br>
-**14. reviews_dateseen** - (text)<br>
-**15. reviews_doRecommend** - (boolean)<br>
-**16. reviews_numhelpful** - (numerical)<br>
-**17. reviews_rating** - (numerical)<br>
-**18. reviews_sourceUrls** - (url)<br>
-**19. reviews_text** - (text)<br>
-**20. reviews_title** - (text)<br>
-**21. reviews_username** - (text)<br>
+**2. asins** - (text)<br>
+**3. brand** - (text)<br>
+**4. categories** - (text)<br>
+**5. colors** - (text)<br>
+**6. dateadded** - (timestamp)<br>
+**7. dateupdated** - (timestamp)<br>
+**8. dimension** - (text)<br>
+**9. manufacturernumber** - (text)<br>
+**10. name** - (text)<br>
+**11. primarycategories** - (text)<br>
+**12. reviews_dateSeen** - (text)<br>
+**13. reviews_doRecommend** - (boolean)<br>
+**14. reviews_numhelpful** - (numerical)<br>
+**15. reviews_rating** - (numerical)<br>
+**16. reviews_sourceUrls** - (url)<br>
+**17. reviews_text** - (text)<br>
+**18. reviews_title** - (text)<br>
+**19. reviews_username** - (text)<br> 
+**20. weight** - (text)<br> 
 <br>
 
 <pre>
