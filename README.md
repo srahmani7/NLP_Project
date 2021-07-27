@@ -55,7 +55,7 @@ The dataset has been collected from https://data.world/datafiniti/amazon-and-bes
 Note that this is a sample of a large dataset. The full dataset is available through Datafiniti.   
 Attribute Information:<br>
 
-**1. id** (text)<br>
+**1. id** - (text)<br>
 **2. asins** - (text)<br>
 **3. brand** - (text)<br>
 **4. categories** - (text)<br>
